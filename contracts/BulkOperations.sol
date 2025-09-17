@@ -31,15 +31,20 @@ contract BulkOperations is Initializable, OwnableUpgradeable, PausableUpgradeabl
 
     function bulkTransfer(address[] calldata recipients, uint256[] calldata amounts) external onlyOwner whenNotPaused nonReentrant {
         require(recipients.length == amounts.length, "AOC: Mismatched arrays");
+        require(recipients.length > 0, "AOC: Empty arrays");
         uint256 totalAmount;
         for (uint256 i = 0; i < amounts.length; i++) {
+            require(recipients[i] != address(0), "AOC: Invalid recipient");
+            require(amounts[i] > 0, "AOC: Zero amount");
             totalAmount += amounts[i];
         }
         require(aoc.balanceOf(msg.sender) >= totalAmount, "AOC: Insufficient balance");
-        emit BulkTransfer(msg.sender, recipients, amounts);
+        require(aoc.allowance(msg.sender, address(this)) >= totalAmount, "AOC:Insufficient allowance");
+        
         for (uint256 i = 0; i < recipients.length; i++) {
             require(aoc.transferFrom(msg.sender, recipients[i], amounts[i]), "AOC: Transfer failed");
         }
+        emit BulkTransfer(msg.sender, recipients, amounts);
     }
 
     function bulkDistribution(string calldata date, uint256 count) external onlyOwner whenNotPaused {
