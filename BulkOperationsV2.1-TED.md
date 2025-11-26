@@ -3,6 +3,7 @@
 ## Technical Explanatory Documentation (TED) 
 ## About 
 ## AOC BEP20 V2.1 Token Bulkoperations Smart Contract 
+<br>
 
 ### AOC BEP20 V2.1 BulkOperations Contract Reference and Functions Technical Description :
 
