@@ -6,7 +6,7 @@
 ## AOC BEP20 V2.1 Token Bulkoperations Smart Contract 
 <br>
 
-### AOC BEP20 V2.1 BulkOperations Contract Reference and Functions Technical Description :
+## AOC BEP20 V2.1 BulkOperations Contract Reference and Functions Technical Description :
 
 The **BulkOperations contract** enables bulk token transfers and distribution requests for **AOC BEP20 V2.1 tokens,** interacting with the **Alpha Omega Coin (AOC) BEP20 V2.1 Token contract.** All functions are owner-only and are categorized as **read** or **write**. Find them as follows : 
 
