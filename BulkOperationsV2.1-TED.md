@@ -1,6 +1,7 @@
 # Alpha Omega Coin (AOC) The Queen of cryptocurrencies
+<br>
 
-## Technical Explanatory Documentation (TED) 
+# Technical Explanatory Documentation (TED) 
 ## About 
 ## AOC BEP20 V2.1 Token Bulkoperations Smart Contract 
 <br>
@@ -10,7 +11,7 @@
 The **BulkOperations contract** enables bulk token transfers and distribution requests for **AOC BEP20 V2.1 tokens,** interacting with the **Alpha Omega Coin (AOC) BEP20 V2.1 Token contract.** All functions are owner-only and are categorized as **read** or **write**. Find them as follows : 
 
 ## 2.1 Read Functions
-- _None : The BulkOperations contract has no read-only functions._
+- _None : The **BulkOperations** contract has **no read-only functions**._
 
 ## 2.2 Write Functions
 ### Function: initialize(address _aoc)
