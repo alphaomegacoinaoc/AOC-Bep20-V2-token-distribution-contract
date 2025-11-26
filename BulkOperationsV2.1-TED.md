@@ -1,6 +1,8 @@
 # Alpha Omega Coin (AOC) The Queen of cryptocurrencies
 
-## Technical Explanatory Documentation (TED) About AOC BEP20 V2.1 Token Bulkoperations Smart Contract 
+## Technical Explanatory Documentation (TED) 
+## About 
+## AOC BEP20 V2.1 Token Bulkoperations Smart Contract 
 
 ### AOC BEP20 V2.1 BulkOperations Contract Reference and Functions Technical Description :
 
