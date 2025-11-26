@@ -25,5 +25,5 @@ The **BulkOperations contract** enables bulk token transfers and distribution re
 - **Purpose:** Enables _efficient distribution of tokens to multiple addresses._
 ### Function: bulkDistribution(string date, uint256 count)
 - **What it does:** Emits an event with a date and count, signaling a bulk distribution request.
-- **Purpose:** Facilitates off-chain or future on-chain distribution processes _**(no token transfer).**__
+- **Purpose:** Facilitates off-chain or future on-chain distribution processes _**(no token transfer).**_
 
