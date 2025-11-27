@@ -1,4 +1,4 @@
-# Alpha Omega Coin (AOC) The Queen of cryptocurrencies
+# Alpha Omega Coin (AOC), The Queen of cryptocurrencies
 <br>
 
 # Technical Explanatory Documentation (TED) 
