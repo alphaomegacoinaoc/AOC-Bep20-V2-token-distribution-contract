@@ -6,7 +6,7 @@
 ## AOC BEP20 V2.1 Token Bulkoperations Smart Contract 
 <br>
 
-## AOC BEP20 V2.1 BulkOperations Contract Reference and Functions Technical Description :
+## Overview:
 
 The **BulkOperations contract** enables bulk token transfers and distribution requests for **AOC BEP20 V2.1 tokens,** interacting with the **Alpha Omega Coin (AOC) BEP20 V2.1 Token contract.** All functions are owner-only and are categorized as **read** or **write**. Find them as follows : 
 
@@ -44,7 +44,7 @@ The **BulkOperations contract** enables bulk token transfers and distribution re
 
 
 
-# Part 3 : Bulk Operations  Multi-Sig Smart Contract Testnet + Mainnet Codes Identification Urls 
+# Part 3 : AOC BEP20 V2.1 Token BulkOperations  Multi-Sig Smart Contract Testnet + Mainnet Codes Identification Urls 
 # Testnet : 
 **Explorer:**  https://testnet.bscscan.com/address/0x115D01dD6723ed1BC0DF2EB6A64350341a29fbBC#code
 
@@ -59,7 +59,7 @@ The **BulkOperations contract** enables bulk token transfers and distribution re
 - **Branch Name:** Mainnet-v1.0.0
 - **Branch Link:** https://github.com/alphaomegacoinaoc/alphaomegacoinaoc-Multi-Sig-Contract/blob/Mainnet-v1.0.0/MultiSigTokenVault.sol
 
-# Part 4 :Bulk Operations Smart Contract Read + Write Functions
+# Part 4 :AOC BEP20 V2.1 Token BulkOperations Smart Contract Read + Write Functions
 ## 2.1 Read Functions
 - _None : The **BulkOperations** contract has **no read-only functions**._
 
