@@ -26,7 +26,7 @@ The **BulkOperations contract** enables bulk token transfers and distribution re
 
 
 
-# Part 2 : Bulk Operations Smart Contract Testnet + Mainnet Codes Identification Urls 
+# Part 2 : AOC BEP20 V2.1 Token BulkOperations Smart Contract Testnet + Mainnet Codes Identification Urls 
 # Testnet : 
 **Explorer**:  https://testnet.bscscan.com/address/0xc5d3be6E0D5EA8Ac07dB001cf2D08A836546088d#readProxyContract
   
