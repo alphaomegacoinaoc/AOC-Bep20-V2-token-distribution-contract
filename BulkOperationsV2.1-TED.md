@@ -11,7 +11,7 @@
 The **BulkOperations contract** enables bulk token transfers and distribution requests for **AOC BEP20 V2.1 tokens,** interacting with the **Alpha Omega Coin (AOC) BEP20 V2.1 Token contract.** All functions are owner-only and are categorized as **read** or **write**. Find them as follows : 
 
 # Part 1 : Alpha Omega Coin  (AOC) BEP20 V2.1 Token  Identification Core Details
-- **Name**: Alpha Omega Coin (AOC)
+- **Name**: Alpha Omega Coin 
 - **Symbol**: AOC
 - **Decimals**: 18
 - **Initial Fixed Supply** : 1,000,000,000,000 (**1 trillion**)
